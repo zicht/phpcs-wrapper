@@ -3,8 +3,7 @@
     "description": "PHP_CodeSniffer including the Zicht PHP coding standard",
     "license": "MIT",
     "repositories": [
-        {"type": "vcs", "url": "https://github.com/squizlabs/PHP_CodeSniffer" },
-        {"type": "vcs", "url": "svn://zon/standards/php" }
+        {"type": "vcs", "url": "https://github.com/squizlabs/PHP_CodeSniffer" }
     ],
     "require": {
         "squizlabs/php_codesniffer": "1.*",
