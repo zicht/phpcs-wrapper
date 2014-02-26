@@ -1,0 +1,2 @@
+PWD=$(cd $(dirname $0)/.. && pwd);
+$PWD/vendor/bin/phpcs --standard=$PWD/vendor/zicht-standards/php/Zicht $@
