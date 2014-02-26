@@ -1,2 +1,2 @@
-PWD=$(cd $(dirname $0)/.. && pwd);
-$PWD/vendor/bin/phpcs --standard=$PWD/vendor/zicht-standards/php/Zicht $@
+PREFIX=$(cd $(dirname $(readlink -f $0))/.. && pwd);
+$PREFIX/vendor/bin/phpcs --standard=$PREFIX/vendor/zicht-standards/php/Zicht $@
