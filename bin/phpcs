@@ -1,2 +1,7 @@
-PREFIX=$(cd $(dirname $(readlink -f $0))/.. && pwd);
+if hash greadlink 2>/dev/null; then
+	PREFIX=$(cd $(dirname $(greadlink -f $0))/.. && pwd);
+else
+	PREFIX=$(cd $(dirname $(readlink -f $0))/.. && pwd);
+fi
+
 $PREFIX/vendor/bin/phpcs --standard=$PREFIX/vendor/zicht-standards/php/Zicht $@
