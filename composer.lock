@@ -5,6 +5,7 @@
         "This file is @generated automatically"
     ],
     "hash": "5343a974825c2434628258f81cc912e0",
+    "content-hash": "28b3cbc1c604530da3d1b0975c232129",
     "packages": [
         {
             "name": "squizlabs/php_codesniffer",
