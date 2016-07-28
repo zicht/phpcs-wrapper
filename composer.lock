@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5343a974825c2434628258f81cc912e0",
-    "content-hash": "28b3cbc1c604530da3d1b0975c232129",
+    "hash": "4104059e40169a7023d00d4710fd0416",
+    "content-hash": "e4783910b7c87ab992e324ce50ca167a",
     "packages": [
         {
             "name": "squizlabs/php_codesniffer",
@@ -82,11 +82,11 @@
         },
         {
             "name": "zicht-standards/php",
-            "version": "2.0.0",
+            "version": "2.1.0",
             "source": {
                 "type": "svn",
                 "url": "svn://zon/standards/php",
-                "reference": "/tags/2.0.0/@96"
+                "reference": "/tags/2.1.0/@106"
             },
             "type": "library",
             "autoload": {
@@ -98,7 +98,7 @@
                 "MIT"
             ],
             "description": "Contains the Zicht PHP coding standards, including phpcs ruleset",
-            "time": "2015-07-14 16:36:00"
+            "time": "2016-07-28 11:29:00"
         }
     ],
     "packages-dev": [],

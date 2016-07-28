@@ -3,8 +3,8 @@
     "description": "PHP_CodeSniffer including the Zicht PHP coding standard",
     "license": "MIT",
     "require": {
-        "squizlabs/php_codesniffer": "1.*",
-        "zicht-standards/php": "2.0.*"
+        "squizlabs/php_codesniffer": "^1",
+        "zicht-standards/php": "^2.1"
     },
     "autoload": {
         "psr-0": {"src": ""}
